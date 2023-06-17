@@ -1,0 +1,9 @@
+.popup__container_theme_whithreg {
+    min-height: 308px;
+}
+
+@media screen and (min-width: 1024px) {
+    .popup__container_theme_whithreg {
+        min-height: 330px;
+    }
+}

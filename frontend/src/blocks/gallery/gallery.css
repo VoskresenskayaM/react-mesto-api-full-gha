@@ -1,0 +1,15 @@
+.gallery {
+    display: flex;
+}
+
+@media screen and (min-width: 768px) {
+    .gallery {
+        min-width: 600px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .gallery {
+        max-width: 900px;
+    }
+}

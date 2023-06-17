@@ -1,0 +1,4 @@
+.gallery__card-delete_inactiv {
+    pointer-events: none;
+    opacity: 0;
+}

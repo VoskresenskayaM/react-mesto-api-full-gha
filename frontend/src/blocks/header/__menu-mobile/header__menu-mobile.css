@@ -1,0 +1,10 @@
+.header__menu-mobile {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    text-align: center;
+    align-items: center;
+    gap: 18px;
+    margin: 40px auto 40px;
+    padding: 0;
+}

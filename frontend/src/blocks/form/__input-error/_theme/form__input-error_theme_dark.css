@@ -1,0 +1,12 @@
+.form__input-error_theme_dark {
+    max-width: 238px;
+    /*min-height: 30px;*/
+    max-height: 30px;
+}
+
+@media screen and (min-width: 1024px) {
+    .form__input-error_theme_dark {
+       margin-top: 2px;
+       max-width: 358px;
+    }
+}

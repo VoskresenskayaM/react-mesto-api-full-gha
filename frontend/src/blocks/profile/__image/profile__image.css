@@ -1,0 +1,16 @@
+.profile__image {
+    border-radius: 120px;
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+  
+    /*background-image: url(../../../images/editFotoProfile.svg);
+    background-repeat: no-repeat;
+    background-position: center;*/
+}
+ /*@media screen and (min-width: 1024px){
+
+    .profile__image {
+        margin-top: 40px;
+    } 
+ }*/

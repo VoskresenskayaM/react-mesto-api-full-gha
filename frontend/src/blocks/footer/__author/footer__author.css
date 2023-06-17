@@ -1,0 +1,18 @@
+.footer__author {
+    margin: 0;
+    color: rgba(84, 84, 84, 1);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+}
+
+.footer__author::before {
+    content: "\00A9";
+}
+
+@media screen and (min-width: 1024px) {
+    .footer__author {
+        font-size: 18px;
+        line-height: 22px;
+    }
+}

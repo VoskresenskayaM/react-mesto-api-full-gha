@@ -1,0 +1,9 @@
+.form__button_inactive {
+    background-color: #FFFFFF;
+    color: rgb(0, 0, 0, 0.15);
+    border: 1px solid rgb(0, 0, 0, 0.15);
+}
+
+.form__button_inactive:hover {
+    background-color: #FFFFFF;
+}

@@ -1,0 +1,11 @@
+.gallery__card-title {
+    margin: 0;
+    padding: 20px 0 20px 0;
+    color: #000000;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 29px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}

@@ -1,0 +1,16 @@
+.gallery__card-heart {
+    margin-top: 5px;
+    height: 19px;
+    min-width: 22px;
+    transition: opacity 0.5s ease;
+    background-image: url(../../../images/heart.svg);
+    background-color: #FFFFFF;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+}
+
+.gallery__card-heart:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}

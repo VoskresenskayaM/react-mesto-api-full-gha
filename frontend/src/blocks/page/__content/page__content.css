@@ -1,0 +1,6 @@
+.page__content {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    min-height: calc(100vh - 98px - 84px);
+}

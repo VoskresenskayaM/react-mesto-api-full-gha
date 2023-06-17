@@ -1,0 +1,12 @@
+.profile-image-contener{
+    margin: 42px auto 0;
+    position: relative;
+
+}
+
+@media screen and (min-width: 1024px){
+
+    .profile-image-contener {
+        margin-top: 40px;
+    } 
+ }

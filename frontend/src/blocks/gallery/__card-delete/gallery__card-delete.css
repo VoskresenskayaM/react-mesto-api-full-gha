@@ -1,0 +1,12 @@
+.gallery__card-delete {
+    width: 19px;
+    height: 19px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1;
+}
+
+.gallery__card-delete:hover {
+    cursor: pointer;
+}

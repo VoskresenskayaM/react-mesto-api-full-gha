@@ -1,0 +1,24 @@
+.profile__add-plus {
+    border: 2px solid rgba(255, 255, 255, 1);
+    background-color: black;
+    background-image: url(../../../images/add_plus.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: opacity .5s ease;
+    margin: 32px auto 0;
+    width: 282px;
+    height: 50px;
+    border-radius: 2px;
+}
+
+.profile__add-plus:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 1024px) {
+    .profile__add-plus {
+        width: 150px;
+        margin: 40px 0 0 0;
+    }
+}
