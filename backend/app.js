@@ -9,9 +9,7 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 
 const HandlerError = require('./errors/HandlerError');
-const {
-  PORT, DB_ADDRESS,
-} = require('./utils');
+const { PORT, DB_ADDRESS } = require('./utils');
 const routes = require('./routes/routes');
 const { requestLogger, errorLogger } = require('./middlewares/logger');
 
