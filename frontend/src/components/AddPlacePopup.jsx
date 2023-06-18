@@ -43,6 +43,8 @@ function AddPlacePopup({ isOpen, isLoading, onAddNewCard, onClose }) {
             case 'link':
                 setLinkDirty(true)
                 break
+                default:
+                    break
         }
     }
 

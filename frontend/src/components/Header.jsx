@@ -65,6 +65,8 @@ const Header = ({ handleLogin }) => {
                     />
                 </div>
             )
+            default:
+                break
     }
 }
 

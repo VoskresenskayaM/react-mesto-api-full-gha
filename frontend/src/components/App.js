@@ -1,7 +1,7 @@
 import Main from './Main';
 import Footer from './Footer';
 import ImagePopup from './ImagePopup'
-import { useState } from 'react';
+import { useState, useCallback } from 'react';
 import { useEffect } from 'react';
 import { CurrentUserContext } from '../contexts/CurrentUserContext';
 import { CurrentUserEmailContext } from '../contexts/CurrentUserEmailContext';
@@ -42,11 +42,7 @@ function App() {
         setLoggenIn(true);
     }
 
-    useEffect(() => {
-        checkToken();
-    }, [])
-
-    function checkToken() {
+    const checkToken =  useCallback(() => {
         if (localStorage.getItem('token')) {
             const token = localStorage.getItem('token')
             auth.getContent(token)
@@ -63,7 +59,11 @@ function App() {
                     console.log(err)
                 })
         }
-    }
+    }, [navigate])
+
+    useEffect(() => {
+        checkToken();
+    }, [checkToken])
 
     /*регистрация пользователя*/
     function registerUser(email, password) {

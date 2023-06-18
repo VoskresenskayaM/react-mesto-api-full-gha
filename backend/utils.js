@@ -1,6 +1,6 @@
-/* const { PORT = 3001 } = process.env;
+const { PORT = 3000 } = process.env;
 const { SECRET_KEY = 'my-secret-key' } = process.env;
-const { DB_ADDRESS = 'mongodb://127.0.0.1:27017/mestodb' } = process.env; */
+const { DB_ADDRESS = 'mongodb://127.0.0.1:27017/mestodb' } = process.env;
 const ok = 200;
 const created = 201;
 const incorrectId = 400;
@@ -30,4 +30,7 @@ module.exports = {
   regPassword,
   regId,
   regLink,
+  PORT,
+  SECRET_KEY,
+  DB_ADDRESS,
 };

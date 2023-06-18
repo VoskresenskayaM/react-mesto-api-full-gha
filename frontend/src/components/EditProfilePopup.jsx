@@ -48,6 +48,9 @@ function EditProfilePopup({ isOpen, isLoading, onUpdateUser, onClose }) {
             case 'about':
                 setDescriptionDirty(true)
                 break
+                default:
+                    break
+
         }
     }
 

@@ -8,10 +8,11 @@ const rateLimit = require('express-rate-limit');
 const { errors } = require('celebrate');
 const mongoose = require('mongoose');
 const cors = require('cors');
+const { PORT, DB_ADDRESS } = require('./utils');
 
 const HandlerError = require('./errors/HandlerError');
 
-const { PORT, DB_ADDRESS } = process.env;
+/* const { PORT, DB_ADDRESS } = process.env; */
 const routes = require('./routes/routes');
 const { requestLogger, errorLogger } = require('./middlewares/logger');
 
@@ -28,7 +29,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 mongoose.connect(DB_ADDRESS);
 app.use(requestLogger);
 app.use(cors());
-app.get('/crash-test', () => {
+app.get('/backend', () => {
   setTimeout(() => {
     throw new Error('Сервер сейчас упадёт');
   }, 0);
