@@ -97,7 +97,8 @@ class Api {
 
 /*const api = new Api('https://mesto.nomoreparties.co/v1/cohort-61',
     '895e832b-1163-4e0c-87e7-99d6139284c1');*/
-const api = new Api('http://localhost:3001')
+/*const api = new Api('http://localhost:3001')*/
+const api = new Api('http://api.vmm459.nomoredomains.rocks')
 export default api;
 
 
