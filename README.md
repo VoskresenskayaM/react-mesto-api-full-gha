@@ -9,8 +9,8 @@
 
 ## Ссылки на проект
 
-IP-адрес x.x.x.x
+IP-адрес 158.160.65.228
 
-Frontend https://...
+Frontend https://vmm459.nomoredomains.rocks
 
-Backend https://...
+Backend https://api.vmm459.nomoredomains.rocks
