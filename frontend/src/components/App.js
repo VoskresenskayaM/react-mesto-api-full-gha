@@ -101,7 +101,7 @@ function App() {
             })
     }
 
-    useEffect(() => {
+   useEffect(() => {
         api.getAllCardWhithUser()
             .then(([cards, user]) => {
                 setCards(cards)

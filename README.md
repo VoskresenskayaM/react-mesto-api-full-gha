@@ -9,7 +9,7 @@
 
 ## Ссылки на проект
 
-IP-адрес 158.160.65.228
+IP 158.160.65.228
 
 Frontend https://vmm459.nomoredomains.rocks
 

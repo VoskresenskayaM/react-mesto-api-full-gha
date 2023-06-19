@@ -1,5 +1,6 @@
-export const BASE_URL = 'http://api.vmm459.nomoredomains.rocks';
-/*'http://localhost:3001';*/
+export const BASE_URL = 'http://localhost:3001';
+/*'https://api.vmm459.nomoredomains.rocks';*/
+
 /*'https://auth.nomoreparties.co';*/
 
 
