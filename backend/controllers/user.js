@@ -6,10 +6,10 @@ const NotFoundError = require('../errors/NotFoundError');
 const NotValidationError = require('../errors/NotValidationError');
 const IncorrectDataError = require('../errors/IncorrectDataError');
 const {
-  /* SECRET_KEY, */ isExists, ok, created,
+  SECRET_KEY, isExists, ok, created,
 } = require('../utils');
 
-const { NODE_ENV, JWT_SECRET } = process.env;
+/* const { NODE_ENV, JWT_SECRET } = process.env; */
 
 module.exports.getAllUsers = (req, res, next) => {
   User.find({})
@@ -153,8 +153,8 @@ module.exports.login = (req, res, next) => {
     .then((user) => {
       const token = jwt.sign(
         { _id: user._id },
-        /* SECRET_KEY, */
-        NODE_ENV === 'production' ? JWT_SECRET : 'dev-secret',
+        SECRET_KEY,
+        /* NODE_ENV === 'production' ? JWT_SECRET : 'dev-secret', */
         { expiresIn: '7d' },
       );
       res.status(ok).send({ token });
